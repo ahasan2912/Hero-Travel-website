@@ -11,8 +11,7 @@
     padding: 0;
 }
 .container{
-    /* max-width: 1170px; */
-    width: 80%;
+    max-width: 1170px;
     margin: 4rem auto;
     border-radius: 8px;
 }
@@ -175,9 +174,11 @@
     letter-spacing: 0%;
     text-align: left;    
 }
+.description-text2{
+    width: 643px;
+}
 /* ---------------------- destination-title ------------------------ */
 #description-text{
-    width: 645px;
     text-align: center;
     margin: 0 auto;
 }
@@ -245,8 +246,61 @@
     width: 100%;
     margin: 15px 0;
 }
+/* --------------------- choose-us section ----------------------- */
+.choose-card{
+    box-sizing: border-box;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+.choose-card-2{
+    box-sizing: border-box;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+}
+.choose-card-3{
+    width: 573px;
+    box-sizing: border-box;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+}
+.choose-card img{
+    width: 70px;
+    height: 70px;
+}
+.choose-card h4{
+    color: rgb(19, 19, 24);
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 15px 0;
+}
+.choose-card p{
+    color: rgb(90, 90, 93);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.row-single{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
 /* Responsive for various design */
 @media screen and (max-width: 600px) {
+    .container{
+        width: 90%;
+    }
     .nav-options{
         display: none;
     }
